@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Epic Munch – Taste the Tradition</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #fff8f0;
-      color: #333;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    h1 {
-      font-size: 2.5em;
-      color: #e58e26;
-    }
-    p {
-      font-size: 1.2em;
-      max-width: 600px;
-      margin: 20px auto;
-    }
-    .cta {
-      background-color: #e58e26;
-      color: white;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 6px;
-      font-size: 1em;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to Epic Munch</h1>
-  <p>Delicious Kerala-style banana chips made with tradition and a crunch you'll never forget.</p>
-  <a href="https://wa.me/91XXXXXXXXXX" class="cta">Order on WhatsApp</a>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Epic Munch</h1>
+      <p>Taste the Tradition – Authentic Kerala Banana Chips</p>
+      <a href="https://wa.me/91XXXXXXXXXX" class="cta">Order on WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="products">
+    <h2>Our Flavours</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/original.png" alt="Original Chips">
+        <h3>Original Style</h3>
+        <p>Pure Kerala taste with crispy perfection.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/peri-peri.png" alt="Peri Peri Chips">
+        <h3>Peri Peri</h3>
+        <p>Spicy twist for the bold snackers.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/salted.png" alt="Salted Chips">
+        <h3>Lightly Salted</h3>
+        <p>Simple, crunchy, and deliciously light.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Epic Munch. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
